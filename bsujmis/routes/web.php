@@ -1,14 +1,22 @@
 <?php
 
 
+use App\Http\Controllers\AdminAffidavitController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserAffidavitController;
 use Illuminate\Support\Facades\Route;
 
 // Default Breeze routes
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// Role-based routes
+Route::middleware('role:admin')->group(function () {
+   
+    });
 
 Route::get('/dashboard', [DashboardController::class, 'index'])
     ->middleware(['auth', 'verified'])
@@ -24,6 +32,7 @@ Route::middleware('auth')->group(function () {
     // Role-based routes
     Route::middleware('role:admin')->group(function () {
         Route::get('/admin', [DashboardController::class, 'admin'])->name('admin.dashboard');
+        Route::get('/admin', [AdminAffidavitController::class, 'index'])->name('admin.dashboard');
     });
 
     Route::middleware('role:judge')->group(function () {
@@ -42,6 +51,18 @@ Route::middleware('auth')->group(function () {
         Route::get('/public', [DashboardController::class, 'public'])->name('public.dashboard');
     });
 });
+
+
+// affidavit route
+Route::middleware('auth')->group(function() {
+    // User routes
+    Route::get('/public/create', [UserAffidavitController::class, 'create'])->name('affidavit.create');
+    Route::post('/public/create', [UserAffidavitController::class, 'store'])->name('affidavit.store');
+
+  
+});
+
+
 
 // Include the default authentication routes provided by Breeze
 require __DIR__.'/auth.php';
