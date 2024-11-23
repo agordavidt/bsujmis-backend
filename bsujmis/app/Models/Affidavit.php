@@ -16,6 +16,8 @@ class Affidavit extends Model
         'court_location',
         'status',
     ];
+
+   
 }
 
 

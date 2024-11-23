@@ -13,6 +13,13 @@ Route::get('/', function () {
 });
 
 
+// Frontend Views
+
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
+
+
 // Role-based routes
 Route::middleware('role:admin')->group(function () {
    
@@ -66,3 +73,7 @@ Route::middleware('auth')->group(function() {
 
 // Include the default authentication routes provided by Breeze
 require __DIR__.'/auth.php';
+
+
+
+
