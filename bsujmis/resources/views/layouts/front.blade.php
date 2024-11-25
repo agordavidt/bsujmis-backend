@@ -162,7 +162,7 @@
 								<li><a href="#" title="Attorney">E-Payment</a></li>
 								<li><a href="#" title="Practice Areas">Affidavit Application</a></li>
 								<li><a href="#" title="FAQ">E-Case Filling</a></li>
-								<li><a href="#" title="Contact Us">Contact Me></li>
+								<li><a href="#" title="Contact Us">Contact Us</li>
 							</ul>
 						</div>
 					</div>
