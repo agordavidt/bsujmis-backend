@@ -1,120 +1,127 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-  <head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Benue State Judiciary Unified Information Mangement</title>
-    <meta name="description" content="Lawe is responsive multi-purpose HTML5 template compatible with Bootstrap 4. Take your Startup business website to the next level. It is designed for lawyer, Attorney, businesses or any type of person or business who wants to showcase their work, services and professional way.">
-    <meta name="keywords" content="advocate, attorney, business, consult, consultant, consulting, corporate, government, justice, law, lawyer, lawyers, legal, political">
-    <meta name="author" content="rometheme.net"> 
-	
 
-	<link rel="shortcut icon" href="{{ asset('assets/frontend/images/favicon.ico') }}">
-	<link rel="apple-touch-icon" href="{{ asset('assets/frontend/images/apple-touch-icon.png') }}">
-	<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/frontend/images/apple-touch-icon-72x72.png') }}">
-	<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/frontend/images/apple-touch-icon-114x114.png') }}">
-	
-
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/bootstrap.min.css') }}" />
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/font-awesome.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/owl.carousel.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/owl.theme.default.min.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/magnific-popup.css') }}">
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/vendor/animate.min.css') }}">
-	
-	<!-- ==============================================
-	Custom Stylesheet
-	=============================================== -->
-	<link rel="stylesheet" type="text/css" href="{{ asset('assets/frontend/css/style.css') }}" />
-	
-    <script src="{{ asset('assets/frontend/js/vendor/modernizr.min.js') }}"></script>
-
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+  <link rel="icon" type="image/png" href="../assets/img/favicon.png">
+  <title>
+    Benue State Judiciary Unified Information Mangement
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" />
+  <!-- Nucleo Icons -->
+  <link href="{{ asset('assets/backend/css/nucleo-icons.css')  }}" rel="stylesheet" />
+  <link href="{{ asset('assets/backend/css/nucleo-svg.css')  }}" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="{{ asset('assets/backend/css/material-dashboard.css?v=3.2.0')  }}" rel="stylesheet" />
 </head>
 
-<body>
-
-	<!-- LOAD PAGE -->
-	<div class="animationload">
-		<div class="loader"></div>
-	</div>
-	
-
-    <div class="container mt-5">
-        <div class="row mt-3">
-            <div class="col-8 mx-auto">
-                    <div class="card-header text-center"> {{ __('Register') }} </div>
-                    <div class="card-body p-3">
-                        <form method="POST" action="{{ route('register') }}">
-                            @csrf
-
-                            <div class="form-group">
-                                <label for="name">{{ __('Name') }}</label>
-                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autofocus>
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group mt-4">
-                                <label for="email">{{ __('Email Address') }}</label>
-                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="username">
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group mt-4">
-                                <label for="password">{{ __('Password') }}</label>
-                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
-                                @error('password')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="form-group mt-4">
-                                <label for="password-confirm">{{ __('Confirm Password') }}</label>
-                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
-                            </div>
-
-                            <div class="d-flex justify-content-end mt-4">
-                                <a class="btn btn-link text-body" href="{{ route('login') }}">
-                                    {{ __('Already registered?') }}
-                                </a>
-
-                                <button type="submit" class="btn btn-primary ms-4">
-                                    {{ __('Register') }}
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-
-               
-            </div>
-        </div>
+<body class="">
+  <div class="container position-sticky z-index-sticky top-0">
+    <div clasbackend
+      <div class="col-12">
+        
+      </div>
     </div>
+  </div>
+  <main class="main-content  mt-0">
+    <section>
+      <div class="page-header min-vh-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
+              <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center" style="background-image: url('{{ asset('assets/backend/img/illustrations/illustration-signup.jpg') }}'); background-size: cover;">
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
+              <div class="card card-plain">
+                <div class="card-header">
+                  <h4 class="font-weight-bolder">{{ __('Register') }}</h4>
+                  <p class="mb-0">Enter your email and password to register</p>
+                </div>
+                <div class="card-body">
+                  <form role="form"  method="POST" action="{{ route('register') }}">
+                    @csrf
 
-
-
-
-<script src="{{ asset('assets/frontend/js/vendor/jquery.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend/js/vendor/bootstrap.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend/js/vendor/owl.carousel.js') }}"></script>
-	<script src="{{ asset('assets/frontend/js/vendor/jquery.magnific-popup.min.js') }}"></script>
-
-	<!-- SENDMAIL -->
-	<script src="{{ asset('assets/frontend/js/vendor/validator.min.js') }}"></script>
-	<script src="{{ asset('assets/frontend/js/vendor/form-scripts.js') }}"></script>
-
-	<script src="{{ asset('assets/frontend/js/script.js') }}"></script>
-
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label" for="name">{{ __('Name') }}</label>
+                      <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autofocus>
+                        @error('name')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label" for="email">{{ __('Email Address') }}</label>
+                      <input  id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="username">
+                       @error('email')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label" for="password">{{ __('Password') }}</label>
+                      <input  id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
+                      @error('password')
+                            <span class="invalid-feedback" role="alert">
+                                <strong>{{ $message }}</strong>
+                            </span>
+                        @enderror
+                    </div>
+                    <div class="input-group input-group-outline mb-3">
+                      <label class="form-label" for="password-confirm">{{ __('Confirm Password') }}</label>
+                      <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">                     
+                    </div>
+                    <div class="form-check form-check-info text-start ps-0">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked>
+                      <label class="form-check-label" for="flexCheckDefault">
+                        I agree the <a href="javascript:;" class="text-dark font-weight-bolder">Terms and Conditions</a>
+                      </label>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit" class="btn btn-lg bg-gradient-dark btn-lg w-100 mt-4 mb-0"> {{ __('Register') }}</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                  <p class="mb-2 text-sm mx-auto">
+                    {{ __('Already have an account?') }}
+                    <a href="{{ route('login') }}" class="text-primary text-gradient font-weight-bold">Login</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--   Core JS Files   -->
+  <script src="{{ asset('assets/backend/js/core/popper.min.js')  }}"></script>
+  <script src="{{ asset('assets/backend/js/core/bootstrap.min.js')  }}"></script>
+  <script src="{{ asset('assets/backend/js/plugins/perfect-scrollbar.min.js')  }}"></script>
+  <script src="{{ asset('assets/backend/js/plugins/smooth-scrollbar.min.js')  }}"></script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="{{ asset('assets/backend/js/material-dashboard.min.js?v=3.2.0')  }}"></script>
 </body>
+
 </html>

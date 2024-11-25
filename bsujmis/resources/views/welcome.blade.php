@@ -14,8 +14,8 @@
 			        </button>
 			        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 			            <ul class="navbar-nav ml-auto">
-			            	<li class="nav-item active">
-			                    <a class="nav-link" href="#">HOME</a>
+			            	<li class="nav-item  ">
+			                    <a class="nav-link" href="{{ url('/') }}">HOME</a>
 			                </li>
 			            	<!-- <li class="nav-item">
 			                    <a class="nav-link" href="about.html">ABOUT US</a>
@@ -26,11 +26,11 @@
 						        </a>
 			                    <div class="dropdown-menu">
 			                    	<!-- <a class="dropdown-item" href="about.html"></a> -->
-			                    	<a class="dropdown-item" href="about.html">Courts</a>
-	          						<a class="dropdown-item" href="about.html">Judges</a>
-	          						<a class="dropdown-item" href="about.html">Lawyers</a>
-	          						<a class="dropdown-item" href="about.html">Testimonials</a>
-	          						<a class="dropdown-item" href="about.html">FAQs</a>
+			                    	<a class="dropdown-item" href="{{ route('about') }}">Courts</a>
+	          						<a class="dropdown-item" href="{{ route('about') }}">Judges</a>
+	          						<a class="dropdown-item" href="{{ route('about') }}">Lawyers</a>
+	          						<a class="dropdown-item" href="{{ route('about') }}">Testimonials</a>
+	          						<a class="dropdown-item" href="{{ route('about') }}">FAQs</a>
 							    </div>
 			                </li>
 			                <li class="nav-item dropdown">
@@ -38,10 +38,10 @@
 						          SERVICES
 						        </a>
 			                    <div class="dropdown-menu">
-			                    	<a class="dropdown-item" href="attorneys.html">e-filling</a>
-	          						<a class="dropdown-item" href="attorneys-single.html">Affidavit Application</a>
-									<a class="dropdown-item" href="attorneys.html"></a>
-	          						<a class="dropdown-item" href="attorneys-single.html"></a>
+			                    	<a class="dropdown-item" href="{{ route('services') }}">e-filling</a>
+	          						<a class="dropdown-item" href="{{ route('services') }}">Affidavit Application</a>
+									<a class="dropdown-item" href="{{ route('services') }}"></a>
+	          						<a class="dropdown-item" href="{{ route('services') }}"></a>
 							    </div>
 			                </li>
 			            	<li class="nav-item dropdown">
@@ -49,10 +49,10 @@
 						          MEDIA
 						        </a>
 			                    <div class="dropdown-menu">
-			                    	<a class="dropdown-item" href="practice-area.html">News</a>
-	          						<a class="dropdown-item" href="practice-area-single.html">Publications</a>
-									<a class="dropdown-item" href="practice-area.html">Gallery</a>
-	          						<a class="dropdown-item" href="practice-area-single.html"></a>
+			                    	<a class="dropdown-item" href="{{ route('media') }}">News</a>
+	          						<a class="dropdown-item" href="{{ route('media') }}">Publications</a>
+									<a class="dropdown-item" href="{{ route('media') }}">Gallery</a>
+	          						<a class="dropdown-item" href="{{ route('media') }}"></a>
 							    </div>
 			                </li>
 							<!-- <li class="nav-item dropdown">
@@ -70,7 +70,7 @@
 			                </li> -->
 			            	
 			            	<li class="nav-item">
-			                    <a class="nav-link" href="contact.html">CONTACT</a>
+			                    <a class="nav-link" href="{{ route('contact') }}">CONTACT</a>
 			                </li>
                  @if (Route::has('login'))
                     
