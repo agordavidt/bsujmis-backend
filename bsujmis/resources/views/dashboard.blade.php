@@ -407,8 +407,28 @@
                             <option value="" disabled selected>Select a category</option>
                             <option value="Change of Name">Change of Name</option>
                             <option value="Lost of Certificate">Lost of Certificate</option>
+                        </select>                        
+                    </div>
+
+                    <div class="input-group input-group-outline mb-3">
+                        <label for="inputState" >Court</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Choose Court...</option>
+                            <option value="High Court 1 Makurdi"> High Court 1 Makurdi</option>
+                            <option value="High Court 1 Aliade"> High Court 1 Aliade</option>           
+                            <option value="High Court Okpoga">High Court Okpoga</option>
+                            <option value="High Court 2 Makurdi">High Court 2 Makurdi</option>
+                            <option value=" High Court 3 Makurdi"> High Court 3 Makurdi</option>
+                            <option value=" High Court 4 Makurdi"> High Court 4 Makurdi</option>
+                            <option value=" High Court 5 Makurdi"> High Court 5 Makurdi</option>
+                            <option value=" High Court 6 Makurdi"> High Court 6 Makurdi</option>
+                            <option value="High Court 1 Otukpo">High Court 1 Otukpo</option>
+                            <option value="High Court 2 Gboko">High Court 2 Gboko</option>
+                            <option value="High Court Adikpo">High Court Gboko</option>
+                            <option value="High Court 1 Aliade">High Court Katsina-Ala</option>           
+                            <option value="High Court Okpoga">High Court Vandeikya</option>
+                            <option value="High Court 2 Makurdi">High Court Sankera</option>   
                         </select>
-                        
                     </div>
 
                    
@@ -416,8 +436,21 @@
                     <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
                     <select id="category" name="category" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">                                                  
                     <option value="" disabled>Select a category</option>
-                    <option value="State High Court Wurukun">Change of Name</option>
-                    <option value="Court of Apeal North Bank">Lost of Certificate</option>
+                    <option selected>Choose Court...</option>
+                            <option value="High Court 1 Makurdi"> High Court 1 Makurdi</option>
+                            <option value="High Court 1 Aliade"> High Court 1 Aliade</option>           
+                            <option value="High Court Okpoga">High Court Okpoga</option>
+                            <option value="High Court 2 Makurdi">High Court 2 Makurdi</option>
+                            <option value=" High Court 3 Makurdi"> High Court 3 Makurdi</option>
+                            <option value=" High Court 4 Makurdi"> High Court 4 Makurdi</option>
+                            <option value=" High Court 5 Makurdi"> High Court 5 Makurdi</option>
+                            <option value=" High Court 6 Makurdi"> High Court 6 Makurdi</option>
+                            <option value="High Court 1 Otukpo">High Court 1 Otukpo</option>
+                            <option value="High Court 2 Gboko">High Court 2 Gboko</option>
+                            <option value="High Court Adikpo">High Court Gboko</option>
+                            <option value="High Court 1 Aliade">High Court Katsina-Ala</option>           
+                            <option value="High Court Okpoga">High Court Vandeikya</option>
+                            <option value="High Court 2 Makurdi">High Court Sankera</option>  
                     </select>
                     </div>
                      <div class="input-group input-group-outline mb-3">

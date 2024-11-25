@@ -176,8 +176,7 @@
 				<div class="row">
 					<div class="col-sm-6 col-md-6 col-lg-3">
 						<div class="footer-item">
-                            <img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo bottom" class="logo-bottom">
-							
+							<img src="{{ asset('assets/frontend/images/logo.png') }}" alt="logo bottom" class="logo-bottom">
 							<div class="spacer-30"></div>
 							<p>Benue State Judiciary & Information Managemnt System is a digital platform designed to streamline judicial processes, enhance efficiency, and improve access to justice for the people of Benue State.</p>
 							<div class="sosmed-icon icon-bg-primary d-inline-flex">
@@ -200,24 +199,24 @@
 									<div class="info-icon">
 										<span class="fa fa-map-marker"></span>
 									</div>
-									<div class="info-text">99 S.t Jomblo Park Pekanbaru 28292. Indonesia</div> </li>
+									<div class="info-text">Agan Dankaro St, Makurdi-Benue. Nigeria</div> </li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-phone"></span>
 									</div>
-									<div class="info-text">(0761) 654-123987</div>
+									<div class="info-text">(+234) 803-81493323</div>
 								</li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-envelope"></span>
 									</div>
-									<div class="info-text">info@yoursite.com</div>
+									<div class="info-text">info@bsujims.com</div>
 								</li>
 								<li>
 									<div class="info-icon">
 										<span class="fa fa-clock-o"></span>
 									</div>
-									<div class="info-text">Mon - Sat 09:00 - 17:00</div>
+									<div class="info-text">Mon - Fri 09:00 - 16:00</div>
 								</li>
 							</ul>
 
@@ -227,16 +226,16 @@
 					<div class="col-sm-6 col-md-6 col-lg-3">
 						<div class="footer-item">
 							<div class="footer-title">
-								Practice Areas
+								Our Services
 							</div>
 							
 							<ul class="list">
-								<li><a href="practice-area-single.html" title="Family Law">Family Law</a></li>
-								<li><a href="practice-area-single.html" title="Financial Law">Financial Law</a></li>
-								<li><a href="practice-area-single.html" title="Sexual Offences">Sexual Offences</a></li>
-								<li><a href="practice-area-single.html" title="Drug Offences">Drug Offences</a></li>
-								<li><a href="practice-area-single.html" title="Fire Accident">Fire Accident</a></li>
-								<li><a href="practice-area-single.html" title="Shoplifthing">Shoplifthing</a></li>
+								<li><a href="practice-area-single.html" title="Family Law">Change of Name</a></li>
+								<li><a href="practice-area-single.html" title="Financial Law">Lost of Items</a></li>
+								<li><a href="practice-area-single.html" title="Sexual Offences">E-Verification</a></li>
+								<li><a href="practice-area-single.html" title="Drug Offences">Book Appointment</a></li>
+								<li><a href="practice-area-single.html" title="Fire Accident">Case Management</a></li>
+								<!-- <li><a href="practice-area-single.html" title="Shoplifthing">Shoplifthing</a></li> -->
 							</ul>
 								
 						</div>
@@ -249,11 +248,11 @@
 							</div>
 							
 							<ul class="list">
-								<li><a href="about.html" title="About Us">About Us</a></li>
-								<li><a href="attorneys.html" title="Attorney">Attorney</a></li>
-								<li><a href="practice-area.html" title="Practice Areas">Practice Areas</a></li>
-								<li><a href="page-faq.html" title="FAQ">FAQ</a></li>
-								<li><a href="contact.html" title="Contact Us">Contact Me></li>
+								<li><a href="#" title="About Us">About Us</a></li>
+								<li><a href="#" title="Attorney">E-Payment</a></li>
+								<li><a href="#" title="Practice Areas">Affidavit Application</a></li>
+								<li><a href="#" title="FAQ">E-Case Filling</a></li>
+								<li><a href="#" title="Contact Us">Contact Me></li>
 							</ul>
 						</div>
 					</div>

@@ -41,7 +41,7 @@
 							<div class="col-2"><i class="fa fa-map-marker fa-3x text-primary"></i></div>
 							<div class="col-10">
 								<h4 class="text-primary mb-0">Address :</h4>
-								<p>123 Rometheme Street, Pekanbaru, 28293, Riau, Indonesia</p>
+								<p>Agan Dankaro St, Makurdi-Benue. Nigeria</p>
 							</div>
 						</div>
 						<!-- Item 2 -->
@@ -49,7 +49,7 @@
 							<div class="col-2"><i class="fa fa-envelope fa-3x text-primary"></i></div>
 							<div class="col-10">
 								<h4 class="text-primary mb-0">Email :</h4>
-								<p>info@yoursite.com <br>infosupport@lawyer.com</p>
+								<p>info@bsujims.com <br>infosupport@bsujims.com</p>
 							</div>
 						</div>
 						<!-- Item 3 -->
@@ -57,7 +57,7 @@
 							<div class="col-2"><i class="fa fa-phone fa-3x text-primary"></i></div>
 							<div class="col-10">
 								<h4 class="text-primary mb-0">Phone :</h4>
-								<p>(0761) 654-123987 <br>(0761) 654-123654</p>
+								<p>(+234) 803-81493323 <br>(+234) 803-81493323</p>
 							</div>
 						</div>
 						<!-- Item 4 -->
@@ -125,11 +125,12 @@
 		<div id="cd-zoom-in"></div>
 		<div id="cd-zoom-out"></div>
 		<div id="maps" class="maps" data-lat="-7.452278" data-lng="112.708992" data-marker="images/cd-icon-location.png">
+			<iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Agan+Dankaro+St,+Makurdi-Benue.+Nigeria&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
 		</div>
 	</div>
 
 	<!-- CTA -->
-	<div class="section bg-primary">
+	<!-- <div class="section bg-primary">
 		<div class="content-wrap py-3">
 			<div class="container">
 				<div class="row">
@@ -141,6 +142,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 @endsection
