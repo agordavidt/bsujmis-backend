@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -68,7 +66,7 @@
                     @csrf
 
                   <div class="input-group input-group-outline my-3">
-                    <label class="form-label" for="email">{{ __('E-Mail Address') }}</label>
+                    <label class="form-label" for="email">{{ __('Email') }}</label>
                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                      @error('email')
                         <span class="invalid-feedback" role="alert">
@@ -160,7 +158,7 @@
   <!-- Github buttons -->
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
-  <script src="../assets/js/material-dashboard.min.js?v=3.2.0"></script>
+  <script src="{{ asset('assets/backend/js/material-dashboard.min.js?v=3.2.0') }}"></script>
 </body>
 
 </html>

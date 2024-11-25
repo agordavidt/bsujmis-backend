@@ -242,7 +242,7 @@
             Check the sales, value and bounce rate by country.
           </p>
         </div> -->
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <!-- <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
@@ -260,13 +260,13 @@
               <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+55% </span>than last week</p>
             </div>
           </div>
-        </div>
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        </div> -->
+        <div class="col-xl-4 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Today's Users</p>
+                  <p class="text-sm mb-0 text-capitalize">Applications</p>
                   <h4 class="mb-0">2300</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
@@ -276,16 +276,16 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+3% </span>than last month</p>
+              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">. </span>.</p>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+        <div class="col-xl-4 col-sm-6 mb-xl-0 mb-4">
           <div class="card">
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Ads Views</p>
+                  <p class="text-sm mb-0 text-capitalize">Applications</p>
                   <h4 class="mb-0">3,462</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
@@ -295,17 +295,17 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-danger font-weight-bolder">-2% </span>than yesterday</p>
+              <p class="mb-0 text-sm"><span class="text-danger font-weight-bolder">.</span>.</p>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6">
+        <div class="col-xl-4 col-sm-6">
           <div class="card">
             <div class="card-header p-2 ps-3">
               <div class="d-flex justify-content-between">
                 <div>
-                  <p class="text-sm mb-0 text-capitalize">Sales</p>
-                  <h4 class="mb-0">$103,430</h4>
+                  <p class="text-sm mb-0 text-capitalize">Applications</p>
+                  <h4 class="mb-0">103</h4>
                 </div>
                 <div class="icon icon-md icon-shape bg-gradient-dark shadow-dark shadow text-center border-radius-lg">
                   <i class="material-symbols-rounded opacity-10">weekend</i>
@@ -314,7 +314,7 @@
             </div>
             <hr class="dark horizontal my-0">
             <div class="card-footer p-2 ps-3">
-              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">+5% </span>than yesterday</p>
+              <p class="mb-0 text-sm"><span class="text-success font-weight-bolder">.</span>.</p>
             </div>
           </div>
         </div>
@@ -376,7 +376,7 @@
         </div>
       </div> -->
       <div class="row m-4">
-        <div class="col-lg-8 col-md-6 mb-md-0 mb-4">
+        <div class="col-lg-12 col-md-6 mb-md-0 mb-4">
           <div class="card">
             <div class="card-header pb-0">
               <h6>Enter your Affidavit Application Details</h6>
@@ -385,21 +385,33 @@
               <div class="table-responsive">
                  <form action="{{ route('affidavit.create') }}" method="POST" class="align-items-center p-4">
                     @csrf
-                    <div class="mb-4">
+                    <!-- <div class="mb-4">
                     <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
                     <input type="text" id="firstName" name="first_name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+                    </div> -->
+                     <div class="input-group input-group-outline mb-3">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" name="first_name">
+                    </div>
+                     <div class="input-group input-group-outline mb-3">
+                        <label class="form-label">Middle Name</label>
+                        <input type="text" class="form-control"id="middleName" name="middle_name">
+                    </div>
+                     <div class="input-group input-group-outline mb-3">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control"  id="lastName" name="last_name">
+                    </div>
+                      <div class="input-group input-group-outline mb-3">
+                        <!-- <label class="form-label">Category</label> -->
+                        <select name="category" id="category">
+                            <option value="" disabled selected>Select a category</option>
+                            <option value="Change of Name">Change of Name</option>
+                            <option value="Lost of Certificate">Lost of Certificate</option>
+                        </select>
+                        
                     </div>
 
-                    <div class="mb-4">
-                    <label for="middleName" class="block text-sm font-medium text-gray-700">Middle Name</label>
-                    <input type="text" id="middleName" name="middle_name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-                    </div>
-
-                    <div class="mb-4">
-                    <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
-                    <input type="text" id="lastName" name="last_name" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-                    </div>
-
+                   
                     <div  class="mb-4">
                     <label for="category" class="block text-sm font-medium text-gray-700">Category</label>
                     <select id="category" name="category" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">                                                  
@@ -408,13 +420,12 @@
                     <option value="Court of Apeal North Bank">Lost of Certificate</option>
                     </select>
                     </div>
-
-                    <div class="mb-4">
-                    <label for="judiciaryLocation" class="block text-sm font-medium text-gray-700">Judiciary Location</label>
-                    <input type="text" id="judiciaryLocation" name="court_location" class="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500  sm:text-sm">
+                     <div class="input-group input-group-outline mb-3">
+                        <label class="form-label">Judiciary Location</label>
+                        <input type="text" class="form-control"  id="judiciaryLocation" name="court_location">
                     </div>
 
-                    <button type="submit"  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">  Submit  </button>
+                   <button type="submit"  class="text-dark text-gradient font-weight-bold">  Submit  </button>
                 </form>
                 <!-- <table class="table align-items-center mb-0">
                   <thead>
